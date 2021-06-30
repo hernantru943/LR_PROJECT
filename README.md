@@ -16,11 +16,11 @@ What dataset(s) do you plan to use, and how will you obtain the data?
 We will build our dataset by scraping the data from Box Office Mojo by using Beautiful Soup method. We have enough information on this website to build a Predictive model. We also have adviced our client to exclude 2021 and 2020 from the analysis since those years are a bad reference due to the pandemic lookdown, so we intend to work with data from 2015 to 2019.
 
 What is an individual sample/unit of analysis in this project? What characteristics/features do you expect to work with?
-We will build a base Linear Regression Model initially using the most correlated numerical features with our Target. We will select those features based on the EDA analysis after the scraping and cleaning process.
+We will build a base Linear Regression Model initially using the most correlated numerical features with our Target. We will select those features based on the EDA analysis after the scraping and cleaning process. That said, we will scrape 200 movies per year for a total of 1000 movies scraped. This will be our total observations before starting the cleaning process.
 
 If modeling, what will you predict as your target?
 
-Since we want to build a model to predict the most profitable movie production, we will use Domestic Gross as our Target important features to consider in terms of profitability when making a decision on a movie production investment.
+Since we want to build a model to predict the most profitable movie production, we will use Domestic Gross as our Target important features to consider in terms of profitability when making a decision on a movie production investment. Some of the features I am planning to include on the scraping are Runtime, Rating, Opening Gross, Widest Release (# of teathers in opening), Genres and Distributor.
 
 # Tools:
 
