@@ -1,4 +1,4 @@
-# Movies Investment Prediction using a LRM
+# Movies Investment Project
 
 Provide recommendations to a Producer investor on what movies he should make by building a predictive Linear Regression Model based on historical 5 years data scraped from Box Office Mojo website. 
 
@@ -8,12 +8,12 @@ What is the framing question of your analysis, or the purpose of the model/syste
 Our client wants recommendations on what movies he should produce in order to make the most profitable movie in the US(domestic gross). 
 
 Who benefits from exploring this question or building this model/system?
-Our client is a prestigious Movies Producer who has reached out to us for Investment recommendations on what movies he should make considering the last 5 years of historical data. He has asked to exclude 2021 and 2020 from the analysis since those years are a bad reference due to the pandemic lookdown. 
+Our client is a prestigious Movies Producer who has reached out to us for Investment recommendations on what movies he should make considering the last 5 years of historical data. 
 
 # Data Description:
 
 What dataset(s) do you plan to use, and how will you obtain the data?
-We will build our dataset by using Beautiful Soup Web Scraping method. We have enough information on this website to build a Predictive model for our client.
+We will build our dataset by scraping the data from Box Office Mojo by using Beautiful Soup method. We have enough information on this website to build a Predictive model. We also have adviced our client to exclude 2021 and 2020 from the analysis since those years are a bad reference due to the pandemic lookdown, so we intend to work with data from 2015 to 2019.
 
 What is an individual sample/unit of analysis in this project? What characteristics/features do you expect to work with?
 We will build a base Linear Regression Model initially using the most correlated numerical features with our Target. We will select those features based on the EDA analysis after the scraping and cleaning process.
@@ -28,4 +28,4 @@ How do you intend to meet the tools requirement of the project?
 I'll start by scraping the data from Box Office Mojo website by using BeautifulSoup method. Then, will clean and analyze the data on the EDA by using Pandas package. After building a basic Linear Regression model, I am planning to apply some feature engineering methods to improve my model by evaluating the R^. 
 
 Are you planning in advance to need or use additional tools beyond those required?
-Initially not, but I might consider using other Web Scraping methods besides Beautiful Soup to scrape additional data from other websites if I need to include other features in my model.
+Initially not, but I might consider using other Web Scraping methods besides Beautiful Soup (such as Selenium) to scrape additional data from other websites if I need to include other features in my model that are not available in Box Office Mojo.
